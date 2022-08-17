@@ -1,11 +1,26 @@
 // ***Singly Linked List***
 
-// General: 
+// GENERAL: 
+
 // Data structure where items are processed in first-in-first-out order (FIFO)
 // Items dequeued from the front
 // Two ends - front and a rear. 
 // Items are added to the the rear of the queue until the queue is full
 // We can use an array or linked list as underlying data structure
+
+// NODE
+// A node in a linked list is an object that has two attributes
+  // Value:
+    // Stores data we’re interested in retrieving, ex:
+      // Integer
+      // Array
+      // String
+      // Some object
+  // Next
+    // Points to the next node in the list
+  // The very last node in the linked list will point to nothing so it’s next value may be undefined, null or nil, etc
+    // This depends on the language being used and the implementation of the node class
+
 
 // LinkedList class tracks the head of the list
 // has one attribute: head
